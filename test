@@ -1,0 +1,91 @@
+from pyautogui import *
+import pyautogui
+import time
+import keyboard
+import random
+import win32api, win32con
+import sys
+
+
+def click(x,y):
+    win32api.SetCursorPos((x,y))
+    #time.sleep(0.001)
+    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
+    #time.sleep(0.05)
+    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
+    
+    
+def clickyclick:    
+    click(-1270, 1190)
+    while 1:   
+        if pyautogui.pixelMatchesColor(-1566, 501, (90, 200, 8), tolerance=25):
+            click(-1510, 540)
+        if pyautogui.pixelMatchesColor(-1435, 501, (90, 200, 8), tolerance=25):
+            click(-1380, 540)
+        if pyautogui.pixelMatchesColor(-1304, 501, (90, 200, 8), tolerance=25):
+            click(-1250, 540)
+        if pyautogui.pixelMatchesColor(-1172, 501, (90, 200, 8), tolerance=25):
+            click(-1110, 540)
+        if pyautogui.pixelMatchesColor(-1040, 501, (90, 200, 8), tolerance=25):
+            click(-980, 540)
+        if pyautogui.pixelMatchesColor(-1566, 501, (235, 180, 7), tolerance=25):
+            click(-1510, 540)
+        if pyautogui.pixelMatchesColor(-1435, 501, (235, 180, 7), tolerance=25):
+            click(-1380, 540)
+        if pyautogui.pixelMatchesColor(-1304, 501, (235, 180, 7), tolerance=25):
+            click(-1250, 540)
+        if pyautogui.pixelMatchesColor(-1172, 501, (235, 180, 7), tolerance=25):
+            click(-1110, 540)
+        if pyautogui.pixelMatchesColor(-1040, 501, (235, 180, 7), tolerance=25):
+            click(-980, 540)
+        if pyautogui.pixelMatchesColor(-1566, 720, (90, 200, 8), tolerance=25):
+            click(-1510, 760)
+        if pyautogui.pixelMatchesColor(-1435, 720, (90, 200, 8), tolerance=25):
+            click(-1380, 760)
+        if pyautogui.pixelMatchesColor(-1304, 720, (90, 200, 8), tolerance=25):
+            click(-1250, 760)
+        if pyautogui.pixelMatchesColor(-1172, 720, (90, 200, 8), tolerance=25):
+            click(-1110, 760)
+        if pyautogui.pixelMatchesColor(-1040, 720, (90, 200, 8), tolerance=25):
+            click(-980, 760)
+        if pyautogui.pixelMatchesColor(-1566, 720, (235, 180, 7), tolerance=25):
+            click(-1510, 760)
+        if pyautogui.pixelMatchesColor(-1435, 720, (235, 180, 7), tolerance=25):
+            click(-1380, 760)
+        if pyautogui.pixelMatchesColor(-1304, 720, (235, 180, 7), tolerance=25):
+            click(-1250, 760)
+        if pyautogui.pixelMatchesColor(-1172, 720, (235, 180, 7), tolerance=25):
+            click(-1110, 760)
+        if pyautogui.pixelMatchesColor(-1040, 720, (235, 180, 7), tolerance=25):
+            click(-980, 760)
+        if pyautogui.pixelMatchesColor(-1566, 934, (90, 200, 8), tolerance=25):
+            click(-1510, 975)
+        if pyautogui.pixelMatchesColor(-1435, 934, (90, 200, 8), tolerance=25):
+            click(-1380, 975)
+        if pyautogui.pixelMatchesColor(-1304, 934, (90, 200, 8), tolerance=25):
+            click(-1250, 975)
+        if pyautogui.pixelMatchesColor(-1172, 934, (90, 200, 8), tolerance=25):
+            click(-1110, 975)
+        if pyautogui.pixelMatchesColor(-1040, 934, (90, 200, 8), tolerance=25):
+            click(-980, 975)
+        if pyautogui.pixelMatchesColor(-1510, 934, (235, 180, 7), tolerance=25):
+            click(-1510, 975)
+        if pyautogui.pixelMatchesColor(-1435, 934, (235, 180, 7), tolerance=25):
+            click(-1380, 975)
+        if pyautogui.pixelMatchesColor(-1304, 934, (235, 180, 7), tolerance=25):
+            click(-1250, 975)
+        if pyautogui.pixelMatchesColor(-1172, 934, (235, 180, 7), tolerance=25):
+            click(-1110, 975)
+        if pyautogui.pixelMatchesColor(-1040, 934, (235, 180, 7), tolerance=25):
+            click(-980, 975)
+            
+        if pyautogui.pixelMatchesColor(-108, 257, (198, 251, 255), tolerance=5):
+            sys.exit()
+        
+
+
+
+while 1:
+    if pyautogui.pixelMatchesColor(-1039, 288, (255, 255, 255), tolerance=5):
+        if pyautogui.pixelMatchesColor(-700, 280, (201, 14, 0), tolerance=5):
+            clickyclick
